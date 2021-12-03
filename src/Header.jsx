@@ -7,8 +7,8 @@ export default class Header extends Component {
     return (
       <div className="md:grid grid-cols-2 py-10">
         <div className="col-span-1 mt-auto">
-          <div className="max-w-lg md:ml-auto text-sm lg:space-y-10 space-y-8 xl:pr-12 pr-6 xl:px-0 px-4 ">
-            <div className="flex items-center space-x-2 font-semibold text-xs">
+          <div className="max-w-lg md:ml-auto text-sm lg:space-y-10 mx-auto md:text-left text-center space-y-8 xl:pr-12 pr-6 xl:px-0 px-4 ">
+            <div className="flex items-center md:justify-start justify-center space-x-2 font-semibold text-xs">
               <img className="w-6" src={IconOne} alt="" />
               <p> HELLO!</p>
             </div>
