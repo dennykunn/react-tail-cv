@@ -11,9 +11,9 @@ export default class Footer extends Component {
           <div className="md:flex items-center ml-auto font-semibold text-center text-gray-800 text-xs md:mt-0 mt-2 space-x-2">
             <p>SOCIAL MEDIA</p>
             <div className="flex justify-center space-x-4 md:mt-0 mt-2">
-              <div className="py-3 w-8 bg-gray-300">FB</div>
-              <div className="py-3 w-8 bg-gray-300">TW</div>
-              <div className="py-3 w-8 bg-gray-300">IN</div>
+              <div className="py-3 w-8 bg-gray-300 cursor-pointer">FB</div>
+              <div className="py-3 w-8 bg-gray-300 cursor-pointer">TW</div>
+              <div className="py-3 w-8 bg-gray-300 cursor-pointer">IN</div>
             </div>
           </div>
         </div>

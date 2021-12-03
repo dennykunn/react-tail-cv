@@ -91,7 +91,7 @@ export default class Experience extends Component {
           {/* asfasf */}
           <div className="md:hidden grid grid-cols-12 col-span-2 mt-10 mb-20 gap-2 space-y-8">
             {/* 1 */}
-            <div className="col-span-1 mt-8">
+            <div className="col-span-1" style={{ marginTop: '60px' }}>
               <img className="w-6" src={IconOne} alt="" />
             </div>
             <div className="col-span-11 text-xs space-y-2">
@@ -105,7 +105,7 @@ export default class Experience extends Component {
             </div>
             {/* 1 */}
             {/* 2 */}
-            <div className="col-span-1">
+            <div className="col-span-1" style={{ marginTop: '60px' }}>
               <img className="w-6" src={IconOne} alt="" />
             </div>
             <div className="col-span-11 text-xs space-y-2">
@@ -119,7 +119,7 @@ export default class Experience extends Component {
             </div>
             {/* 2 */}
             {/* 3 */}
-            <div className="col-span-1">
+            <div className="col-span-1" style={{ marginTop: '60px' }}>
               <img className="w-6" src={IconOne} alt="" />
             </div>
             <div className="col-span-11 text-xs space-y-2">
@@ -133,7 +133,7 @@ export default class Experience extends Component {
             </div>
             {/* 3 */}
             {/* 4 */}
-            <div className="col-span-1">
+            <div className="col-span-1" style={{ marginTop: '60px' }}>
               <img className="w-6" src={IconOne} alt="" />
             </div>
             <div className="col-span-11 text-xs space-y-2">

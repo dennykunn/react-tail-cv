@@ -18,7 +18,7 @@ export default class Biography extends Component {
             <span className="text-white">Biography</span>,<br /> few words about my background
           </p>
         </div>
-        <div className="col-span-2 pt-16 grid md:grid-cols-4 grid grid-cols-2 gap-8 max-w-5xl mx-auto xl:mt-8">
+        <div className="col-span-2 pt-16 pb-4 grid md:grid-cols-4 grid grid-cols-2 gap-8 max-w-5xl mx-auto xl:mt-8">
           <div className="col-span-1">
             <p className="text-white text-lg">My education, courses and completed education profiles.</p>
             <p className="text-gray-500 text-sm pt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, ipsum perferendis. Delectus illum voluptates eos.</p>

@@ -28,22 +28,28 @@ export default class Contact extends Component {
               <p className="text-gray-500">CONTACT ME VIA EMAIL</p>
               <p style={{ color: '#5bac4e' }}>dennykunn@gmail.com</p>
             </div>
-            <div className="text-xs leading-5">
+            <div className="text-xs leading-5 flex flex-col">
               <p className="text-gray-500">MY WEBSITE</p>
-              <p style={{ color: '#5bac4e' }}>weather-v2.vercel.app</p>
-              <p style={{ color: '#5bac4e' }}>react-tail-cv.vercel.app</p>
-              <p style={{ color: '#5bac4e' }}>react-tailwind.vercel.app</p>
+              <a href="weather-v2.vercel.app" style={{ color: '#5bac4e' }}>
+                weather-v2.vercel.app
+              </a>
+              <a href="react-tail-cv.vercel.app" style={{ color: '#5bac4e' }}>
+                react-tail-cv.vercel.app
+              </a>
+              <a href="react-tailwind.vercel.app" style={{ color: '#5bac4e' }}>
+                react-tailwind.vercel.app
+              </a>
             </div>
             <div className="text-xs space-y-4">
               <p className="text-gray-500">MY SOCIAL MEDIA</p>
               <div className="flex space-x-2 text-white text-center font-bold">
-                <div className="w-8 py-2 rounded-full" style={{ backgroundColor: '#5bac4e' }}>
+                <div className="w-8 py-2 rounded-full cursor-pointer" style={{ backgroundColor: '#5bac4e' }}>
                   FB
                 </div>
-                <div className="w-8 py-2 rounded-full" style={{ backgroundColor: '#5bac4e' }}>
+                <div className="w-8 py-2 rounded-full cursor-pointer" style={{ backgroundColor: '#5bac4e' }}>
                   TW
                 </div>
-                <div className="w-8 py-2 rounded-full" style={{ backgroundColor: '#5bac4e' }}>
+                <div className="w-8 py-2 rounded-full cursor-pointer" style={{ backgroundColor: '#5bac4e' }}>
                   IN
                 </div>
               </div>
