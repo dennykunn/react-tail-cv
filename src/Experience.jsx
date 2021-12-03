@@ -6,17 +6,17 @@ export default class Experience extends Component {
   render() {
     return (
       <div>
-        <div className="max-w-3xl mx-auto grid grid-cols-2">
-          <div className="col-span-1 space-y-10 mt-24">
+        <div className="max-w-3xl mx-auto md:grid grid-cols-2 md:px-0 px-4">
+          <div className="col-span-1 lg:space-y-10 space-y-8 mt-24">
             <div className="flex items-center space-x-2 font-semibold text-xs">
               <img className="w-6" src={IconOne} alt="" />
               <p>MY PROVIOUS JOBS</p>
             </div>
             <p className="text-5xl font-semibold leading-12" style={{ color: '#5bac4e' }}>
-              <span className="text-gray-800">My experience</span>, great places, great people
+              <span className="text-gray-800">My experience</span>,<br /> great places, great people
             </p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 md:mt-0 mt-10">
             <img src={ImageThree} alt="" />
           </div>
           <div className="col-span-2 grid grid-cols-9 my-20">
@@ -82,8 +82,8 @@ export default class Experience extends Component {
               <p>SEPTEMBER 2010-FEBRUARY 2014</p>
             </div>
             {/* batas 4 */}
-            <div className="col-start-4 col-span-3 mt-12">
-              <button className="w-full py-3 text-white text-sm" style={{ backgroundColor: '#5bac4e' }} href="/">
+            <div className="col-start-3 md:col-start-4 md:col-span-3 col-span-5 mt-12 px-auto">
+              <button className="w-full py-3 text-white text-sm " style={{ backgroundColor: '#5bac4e' }} href="/">
                 GO TO MY CERTIFICATES
               </button>
             </div>

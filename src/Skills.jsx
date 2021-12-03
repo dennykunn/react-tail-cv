@@ -5,7 +5,7 @@ export default class Skills extends Component {
   render() {
     return (
       <div>
-        <div className="max-w-3xl mx-auto grid grid-cols-2 gap-12 pt-20 pb-40">
+        <div className="max-w-3xl md:px-0 px-4 mx-auto md:space-y-0 space-y-8 md:grid grid-cols-2 gap-12 md:pt-20 py-16 md:pb-40 ">
           <div className="col-span-2 space-y-6 font-semibold text-center">
             <div className="space-y-2 text-xs">
               <img className="w-6 mx-auto" src={IconOne} alt="" />
