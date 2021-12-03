@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <div>
         <div className="max-w-3xl mx-auto md:flex items-center justify-between lg:py-12 md:py-10 py-8 md:px-0 px-4">
-          <div className="text-xs md:text-left text-center order-last text-gray-800 my-auto">
+          <div className="text-xs md:order-first order-last md:text-left text-center order-last text-gray-800 my-auto">
             &copy; 2021 DeCV - Detheme.All Right Reserved. <span style={{ color: '#5bac4e' }}>Denny Group</span>
           </div>
           <div className="md:flex items-center ml-auto font-semibold text-center text-gray-800 text-xs md:mt-0 mt-2 space-x-2">

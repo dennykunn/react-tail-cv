@@ -5,7 +5,7 @@ import IconOne from '../src/asset/icon1.png';
 export default class Content extends Component {
   render() {
     return (
-      <div className="max-w-3xl mx-auto mt-16 md:mb-56 mb-20 md:px-0 px-4">
+      <div className="max-w-3xl mx-auto mt-16 md:mb-56 mb-16 md:px-0 px-4">
         <div className="md:grid grid-cols-2 items-center">
           <div className="col-span-1 lg:space-y-10 space-y-8">
             <div className="flex items-center space-x-2 font-semibold text-xs">
