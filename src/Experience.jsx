@@ -7,7 +7,7 @@ export default class Experience extends Component {
     return (
       <div>
         <div className="max-w-3xl mx-auto md:grid grid-cols-2 md:px-0 px-4">
-          <div className="col-span-1 lg:space-y-10 space-y-8 md:mt-24 mt-20">
+          <div className="col-span-1 lg:space-y-10 space-y-8 md:mt-24 mt-16">
             <div className="flex items-center space-x-2 font-semibold text-xs">
               <img className="w-6" src={IconOne} alt="" />
               <p>MY PROVIOUS JOBS</p>
@@ -89,7 +89,7 @@ export default class Experience extends Component {
             </div>
           </div>
           {/* asfasf */}
-          <div className="md:hidden grid grid-cols-12 col-span-2 mt-10 mb-20 gap-2 space-y-8">
+          <div className="md:hidden grid grid-cols-12 col-span-2 mt-10 mb-16 gap-2 space-y-8">
             {/* 1 */}
             <div className="col-span-1" style={{ marginTop: '60px' }}>
               <img className="w-6" src={IconOne} alt="" />
