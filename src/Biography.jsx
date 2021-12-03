@@ -5,7 +5,7 @@ import IconOne from './asset/icon1.png';
 export default class Biography extends Component {
   render() {
     return (
-      <div className="grid grid-cols-2 bg-black mx:px-0 px-4" style={{ background: '#3a4046' }}>
+      <div className="grid grid-cols-2 bg-black lg:px-0 px-4" style={{ background: '#3a4046' }}>
         <div className="col-span-1 relative md:inline-block hidden">
           <img className="absolute xl:-top-32 lg:-top-28 md:-top-20" src={ImageTwo} alt="" />
         </div>
@@ -37,12 +37,12 @@ export default class Biography extends Component {
             <p className="text-white text-lg">A summary of my social activities that i devote to outside of work.</p>
             <p className="text-gray-500 text-sm pt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, ipsum perferendis. Delectus illum voluptates eos.</p>
           </div>
-        </div>
-        <div className="col-span-2 xl:mb-20 lg:mb-16 md:mb-12 mb-16 flex items-center">
-          <button className="w-3/5 py-3 text-white text-sm" style={{ backgroundColor: '#5bac4e' }} href="/">
-            SEE MY EXPERIENCE
-          </button>
-          <div className="border-t w-3/4 border-gray-600"></div>
+          <div className="md:col-span-4 col-span-2 xl:mb-20 lg:mb-16 md:mb-12 mb-16 flex items-center">
+            <button className="md:w-2/5 w-full py-3 text-white text-sm" style={{ backgroundColor: '#5bac4e' }} href="/">
+              SEE MY EXPERIENCE
+            </button>
+            <div className="border-t w-full border-gray-600"></div>
+          </div>
         </div>
       </div>
     );
