@@ -3,7 +3,7 @@ import ImageOne from './asset/d2.png';
 export default class navbar extends Component {
   render() {
     return (
-      <div className="sticky top-0 z-30 bg-white">
+      <div className="sticky top-0 z-30 bg-opacity-75 backdrop-filter backdrop-blur  transition-all bg-white">
         <div className="container mx-auto">
           <div className="flex justify-between py-4 md:px-0 px-4">
             <div className="flex items-center">
@@ -27,7 +27,7 @@ export default class navbar extends Component {
               </a>
             </div>
             <div className="md:hidden my-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 transition-all text-white cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
                 <path
                   fillRule="evenodd"
                   d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
