@@ -29,7 +29,7 @@ export default class Skills extends Component {
           {/* 2 */}
           <div className="col-span-1 space-y-3">
             <div className="flex justify-between text-sm font-semibold">
-              <p>MARKETING KNOWLEDGE</p>
+              <p>TEAM BUILDING</p>
               <p>79%</p>
             </div>
             <div className="bg-gray-300">
@@ -40,7 +40,7 @@ export default class Skills extends Component {
           {/* 3 */}
           <div className="col-span-1 space-y-3">
             <div className="flex justify-between text-sm font-semibold">
-              <p>MARKETING KNOWLEDGE</p>
+              <p>RECRUITMENT</p>
               <p>100%</p>
             </div>
             <div className="bg-gray-300">
@@ -51,7 +51,7 @@ export default class Skills extends Component {
           {/* 4 */}
           <div className="col-span-1 space-y-3">
             <div className="flex justify-between text-sm font-semibold">
-              <p>MARKETING KNOWLEDGE</p>
+              <p>MS OFFICE</p>
               <p>95%</p>
             </div>
             <div className="bg-gray-300">
@@ -62,7 +62,7 @@ export default class Skills extends Component {
           {/* 5 */}
           <div className="col-span-1 space-y-3">
             <div className="flex justify-between text-sm font-semibold">
-              <p>MARKETING KNOWLEDGE</p>
+              <p>ENGLISH - LANGUAGE</p>
               <p>40%</p>
             </div>
             <div className="bg-gray-300">
@@ -73,7 +73,7 @@ export default class Skills extends Component {
           {/* 6 */}
           <div className="col-span-1 space-y-3">
             <div className="flex justify-between text-sm font-semibold">
-              <p>MARKETING KNOWLEDGE</p>
+              <p>ARABIAN - LANGUAGE</p>
               <p>50%</p>
             </div>
             <div className="bg-gray-300">
