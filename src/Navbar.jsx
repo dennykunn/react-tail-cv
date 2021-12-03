@@ -3,7 +3,7 @@ import ImageOne from './asset/d2.png';
 export default class navbar extends Component {
   render() {
     return (
-      <div className="sticky top-0 z-30 bg-opacity-75 backdrop-filter backdrop-blur  transition-all bg-white">
+      <div className="sticky top-0 z-30 bg-opacity-75 backdrop-filter backdrop-blur firefox:bg-opacity-90 transition-all bg-white">
         <div className="container mx-auto">
           <div className="flex justify-between py-4 md:px-0 px-4">
             <div className="flex items-center">

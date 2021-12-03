@@ -7,7 +7,7 @@ export default class Biography extends Component {
     return (
       <div className="grid grid-cols-2 bg-black lg:px-0 px-4" style={{ background: '#3a4046' }}>
         <div className="col-span-1 relative md:inline-block hidden xl:mr-8 lg:mr-6 mr-5">
-          <img className="absolute xl:-top-32 lg:-top-28 md:-top-20" src={ImageTwo} alt="" />
+          <img className="absolute xl:-top-32 lg:-top-28 md:-top-20 w-full lg:h-96 h-80" src={ImageTwo} alt="" />
         </div>
         <div className="md:col-span-1 col-span-2 lg:space-y-10 space-y-8 xl:mt-20 lg:mt-16 md:mt-12 mt-16">
           <div className="flex items-center space-x-2 font-semibold text-xs text-white">
