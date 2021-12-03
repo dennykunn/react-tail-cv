@@ -3,9 +3,9 @@ import ImageOne from './asset/d2.png';
 export default class navbar extends Component {
   render() {
     return (
-      <div>
+      <div className="sticky top-0 z-30 bg-opacity-75 backdrop-filter backdrop-blur  transition-all bg-transparent">
         <div className="container mx-auto">
-          <div className="flex justify-between pt-4 md:px-0 px-4">
+          <div className="flex justify-between py-4 md:px-0 px-4">
             <div className="flex items-center">
               <img className="xl:w-12 w-10" src={ImageOne} alt="" />
               <div className="font-semibold ml-2 mt-3">
